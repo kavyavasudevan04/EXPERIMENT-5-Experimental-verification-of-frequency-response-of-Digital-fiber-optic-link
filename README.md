@@ -1,5 +1,5 @@
 
-Exp 5 Experimental verification of frequency response of Digital fiber optic link
+# Exp 5 Experimental verification of frequency response of Digital fiber optic link
 # Digital Fiber Optic Link Analysis (600nm)
 
 ## AIM
@@ -45,7 +45,7 @@ Fiber optic links can be used for transmission of digital as well as analog sign
 
 ## BLOCK DIAGRAM
 
-*(Insert block diagram here)*
+<img width="595" height="365" alt="image" src="https://github.com/user-attachments/assets/87854bc4-b61f-4ea3-95cf-98fe38c13058" />
 
 ---
 
@@ -62,16 +62,31 @@ Fiber optic links can be used for transmission of digital as well as analog sign
 
 | Frequency (Hz) | Output Signal Amplitude (Vo) | Gain = Vo/Vi | Gain in dB |
 |----------------|------------------------------|--------------|------------|
-|                |                              |              |            |
+|    800HZ       |        2.5V                  |    0.3       |  -6.02     |
+|    1KHZ        |        32V                   |    6.4       |  16.12     |
+|    2KHZ        |        34V                   |    6.8       |  16.6      |
+|    5KHZ        |        36V                   |    7.2       |  17.14     |
+|    10KHZ       |        37V                   |    7.4       |  17.38     |
+|    20KHZ       |        37V                   |    7.4       |  17.38     |
+|    50KHZ       |        27V                   |    5.4       |  14.64     |
+|    100KHZ      |        27V                   |    5.4       |  14.64     |
+|    250KHZ      |        12.7V                 |    2.54      |  8.09      |
 
 ---
 
 ## MODEL GRAPH
 
-*(Insert model graph here)*
+<img width="970" height="459" alt="image" src="https://github.com/user-attachments/assets/0eb8dea5-22f8-4062-b4f7-86e36323190e" />
+
+
+## OUTPUT GRAPH 
+
+![WhatsApp Image 2025-11-25 at 23 03 48_bcd8ca56](https://github.com/user-attachments/assets/0cc6037d-6e1c-4890-8d0f-af0894123402)
+
+
 
 ---
 
 ## RESULT
+Thus , the relationship between input and received signal of a 600nm fiber optic cable using digital link are verified.
 
-*(Summarize observations and conclusions here)*
